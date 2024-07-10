@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+button {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 16px;
+}
+#connectBtn:active {
+    background-color: #073709;
+}
+
+
+#connectBtn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#controlBtn {
+    background-color: #f44336;
+    color: white;
+}
+
+button:disabled {
+    background-color: #cccccc;
+    color: #666666;
+}
